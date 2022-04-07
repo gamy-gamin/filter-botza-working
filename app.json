@@ -1,0 +1,87 @@
+{
+    "name": "Auto Filter Bot",
+    "description": "Kind of a filter bot where you don't have to add filters manually.",
+    "logo": "https://telegra.ph/file/71aaa621508cd696ab538.jpg",
+    "keywords": [
+        "Auto",
+        "Filter",
+        "Telegram Bot",
+        "TroJanzHEX"
+    ],
+    "website": "https://TroJanzHEX.me",
+    "repository": "https://github.com/TroJanzHEX/Auto-Filter-Bot-V2",
+    "success_url": "https://telegram.dog/TroJanzHEX",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": "1822577927:AAF1rmYtTmKV3dtWVJF8IigR2E3eIomkNVU"
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org or @UseTGXBot",
+            "value": "fbc8918eed3b68ccfd80283cf53db785"
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org or @UseTGXBot",
+            "value": "3206260"
+        },
+        "TG_USER_SESSION": {
+            "description": "A pyrogram user session string. Generate from https://repl.it/@prgofficial/String-Gen",
+            "value": "BQCsZ-lMkKtGL2e5RKjCmORRzivRWbw0YhH7KhG2nPdwudBDCbSuEGNclG5dnMhqRfDVc8Z1bV5LvUirwACqnO2Id6D9np92MxqrLDLMVdm_et09igjXNK8VTxgO7Ww9eJyMkfbF7tsRyRhFdJzP5V-DxM-n6QmxIxPx_o3BwWUv05dUgjsw0T1cc2cltRXboZsJm5DmjElhubPjjzJHu8OsJCTBlFXHte2-BN720qoLU4fGJSPubk0t-U-W6VV-2iR5B1MIlWokHwZMyN9oqlVhrI-cBEpDuWH9ExcOzd39L2BUp0tpQpETanIakSoIJRNb29HxNkgdZ82lAr4gVus7ZS2DfgA"
+        },
+        "AUTH_USERS": {
+            "description": "ID of users that can use the bot commands",
+            "value": "1177233175"
+        },
+        "DATABASE_URI": {
+            "description": "Database URL from https://cloud.mongodb.com/",
+            "value": "mongodb+srv://Gamy_Gamin:Gamy_Gamin@cluster0.ygf7l.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+        },
+        "DATABASE_NAME": {
+            "description": "Your database name from mongoDB. ( Default will 'Cluster0' )",
+            "value": "Cluster0"
+        },
+        "DOC_SEARCH": {
+            "description": "Should bot search for document files in channels ( Give 'yes' or 'no' )",
+            "value": "yes"
+        },
+        "VID_SEARCH": {
+            "description": "Should bot search for video files in channels ( Give 'yes' or 'no' )",
+            "value": "yes"
+        },
+        "MUSIC_SEARCH": {
+            "description": "Should bot search for music files in channels ( Give 'yes' or 'no' )",
+            "value": "no"
+        },
+        "CHANNEL_LINK": {
+            "description": "Your Channel Link",
+            "value": "https://t.me/c/1404974777/"
+        },
+        "WEB_SITE_URL": {
+            "description": "URL to your Web page",
+            "value": "https://www.irupc.net/p/bot.html?"
+        },
+        "ADMIN_ALIVE": {
+            "description": "Admin Support or Not",
+            "value": "no"
+        },
+        "SUB_TEXT": {
+            "description": "Subtitle Text",
+            "value": "𝕊𝕦𝕓𝕥𝕚𝕥𝕝𝕖 ❗️ "
+        },
+        "SM_ADMIN": {
+            "description": "Small Admins",
+            "value": "1225359816 1177233175"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
